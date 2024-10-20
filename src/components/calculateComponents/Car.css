@@ -1,0 +1,15 @@
+.hero-car{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 50rem;
+    background-image: url(https://img.freepik.com/premium-photo/traffic-standstill-car-stuck-traffic-with-visible-exhaust-fumes_956920-25511.jpg);
+    /* filter: brightness(93%); */
+    background-size: 100% 100%;
+    background-position: 80% 75%;
+    background-repeat: no-repeat;
+    padding: 0px 20rem;
+}

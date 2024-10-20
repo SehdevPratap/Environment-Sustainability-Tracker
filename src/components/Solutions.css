@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.solutions-wrap{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    padding: 0 8%;
+}
+.solutions-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+    height: auto;
+    /* background-color: burlywood; */
+    box-shadow: 10px -10px 25px gray,-10px -10px 25px gray;
+    padding-top: 4rem;
+   
+}
+.sol-menu{
+ font-size: 2rem;
+}
+.sol-menu-m{
+    width: 100%;
+    padding: 2rem 2rem;
+    background-color: white;
+    border-right: 1px solid black;
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sol-menu-m:hover{
+    background-color: #07508d;
+    color: white;
+}
+.sol-hr{
+    height: 4px;
+    width: 100%;
+    background-color: #009bde;
+    margin: 2rem 0;
+}
+.sol-content{
+    padding: 0 4rem;
+}
+.sol-sol{
+    padding: 0 2rem;
+}

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    position: relative;
+    /* top: 8.2rem; */
+    overflow: hidden;
+}
+.intro{
+    position: relative;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://sphera.com/wp-content/uploads/2020/05/What-Is-Environmental-Sustainability-1.jpg);
+    background-size: 120% 150%;
+    /* background-position: 80% 75%; */
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 48rem;
+    color: white;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    text-align: center;
+    z-index: -1;
+}
+.intro h1{
+    font-size: 5rem;
+}
+.container-wrap{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.main-content{
+    padding: 0px 90px;
+
+    /* text-align: center; */
+}
+.row{
+    /* max-width: 1000px; */
+    padding-right: 0;
+    margin: 0px 100px;
+}
+.author{
+    font-size: 1.5rem;
+}
+.Article{
+    font-size: 2rem;
+}
+.Article  h2{
+    font-size: 4.5rem;
+    margin: 10px 0px;
+}
+.resources h2{
+    font-size: 3.7rem;
+}
+.resources{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+.resources .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+
+}
+.card-box{
+    background-color: white;
+    height: 40rem;
+    transition: all 0.3s;
+    box-shadow: 10px 10px 10px #9caccc;
+}
+.card-box:hover{
+    transform: translateY(8px);
+}
+.card-box .card-image img{
+    height: 20rem;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.card-button{
+    background-color: #2fe677;
+    border-radius: 20px;
+    width:40%;
+    height: 3.5rem;
+    text-align: center;
+    margin: 4.5rem 1rem;
+    transition: all 0.3s;
+    box-shadow: -2px 2px 15px #9caccc;
+}
+.card-button:hover{
+    transform: translateX(5px);
+}
+.card-title{
+    margin: 10px 0px;
+}
+
+/* footer */
+.home-footer{
+    margin-top: 50px;
+}
+.line{
+    width: 100vw;
+    height: 1rem;
+    background-color: #009bde;
+}
+.card-box a{
+    font-weight:400;
+    font-size: 2rem;
+    color: white;
+}

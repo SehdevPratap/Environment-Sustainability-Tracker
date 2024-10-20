@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.m{
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+    /* top: 8.2rem; */
+    /* height: 48rem; */
+    width: 100vw;
+    height: auto;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 66rem;
+    background-image: url(https://co2.myclimate.org/packs/images/hero/myc_carbon_offset_headerbild-sm-5b743925d7d21cf070f839eb0506f45e.jpg);
+    /* background-size: 120% 150%; */
+    background-position: 80% 75%;
+    background-repeat: no-repeat;
+    padding: 0px 20rem;
+}
+.hero .heading{
+    font-size: 7.5rem;
+    width: 100%;
+    /* padding-bottom: 30px; */
+}
+.hero .para{
+    font-size: 3rem;
+}
+/* .calculate-cover{
+    background: linear-gradient(to bottom, #e6f7ff, #cceeff, #b3e6ff, #99ddff, #80d4ff);
+} */
+.calculate-main{
+    /* display: grid; */
+    margin: 0px 20rem;
+    padding: 40px 5rem;
+    
+}
+.container-page{
+    display: grid;
+    
+}
+.page-heading h1{
+    font-size: 4rem;
+    padding: 10px 0px;
+}
+.calculate-icons{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding-top: 80px;
+    font-size: 3rem;
+}
+.calculate-icons a{
+    color: #213547;
+    font-weight: 400;
+}
+.c-icons{
+    font-size: 10rem;
+    transition: all 0.3s;
+    color: #009bde;
+}
+.c-icons:hover{
+    color:#002a56;
+    /* background-color: blue; */
+}

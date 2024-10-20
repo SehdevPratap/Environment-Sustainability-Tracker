@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.footer-container{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3.2rem 1fr 3.2rem  0.8fr;
+    grid-template-rows: auto;
+    row-gap: 60px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 40px 23rem;
+    color: black;
+}
+.footer-article{
+    grid-column: 1/2;
+}
+.footer-donation{
+    grid-column: 3/4;
+}
+.footer-calculate{
+    grid-column: 5/6;
+}
+.footer-article-button,.footer-donation-button,.footer-cal-print{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    width: auto;
+    color: white;
+}
+.footer-article-button:hover,.footer-donation-button:hover{
+    filter: brightness(93%);
+}
+.footer-article-button{
+    background-color: #003a72;
+}
+.footer-donation-button{
+    background-color: #2fe677;
+}
+.copyright{
+    font-size:large;
+    font-weight: 400;
+    background-image: linear-gradient(to right, #c1c1c1, #cecece, #dadada, #e7e7e7, #f4f4f4);
+    width: auto;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-1 img{
+    height: 5rem;
+    width: 20rem;
+}
+.footer-1-a{
+    padding: 20px 0;
+    color: #00366a;
+}
+.footer-2{
+    display: flex;
+    flex-flow: wrap column;
+    font-size: 2rem;
+    grid-column: 3/4;
+    padding-left: 10px;
+}
+.footer-2-a:first-child{
+    padding-top: 10px;
+}
+.footer-2-a{
+    font-size: 1.8rem;
+    color: #00366a;
+    cursor: pointer;
+    padding: 3px 0;
+}
+.footer-2-a:hover{
+    color:black;
+}
+.footer-cal-print{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-icons{
+    font-size: 5rem;
+}
+.footer-3{
+    grid-column: 5/6;
+    font-size: 2rem;
+}
+.footer-3 .footer-connect{
+    display: flex;
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    color: #00366a;
+}
+.footer-connect .f-c-i:hover{
+    color: black;
+}
+.hr{
+    height: 1rem;
+    width: auto;
+    background-color: #00366a;
+    margin: 4rem 0;
+}

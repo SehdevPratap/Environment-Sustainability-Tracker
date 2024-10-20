@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container-flight{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    /* background-color: aqua; */
+}
+.hero-flight{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 50rem;
+    background-image: url(https://th.bing.com/th/id/R.e93337dc8b7bad5b8c69c241151a2d0b?rik=oEyiM6cX3%2bPOlQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f3%2f33%2fBoeing_747-8_first_flight_Everett%2c_WA.jpg&ehk=OOwspdmirhdFBoKMr6slNsWsX6n2kXy9mETd9HqzS2E%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100% 170%;
+    /* background-position: 80% 75%; */
+    background-repeat: no-repeat;
+    padding: 0px 20rem;
+}
+.main-flight{
+    margin: 0 20rem;
+    /* padding: 10rem 0; */
+    font-size: 2rem;
+    /* background-color: black; */
+}
+.flight-heading h1{
+    font-size: 5rem;
+}
+.form{
+    padding: 4rem 0;
+}
+
+input[type=radio] {
+    height: 3rem;
+    width: 3rem;
+    border:0;
+    accent-color: #004890;
+
+}
+.input{
+    display: flex;
+    flex-flow: wrap column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 500;
+    padding-top: 40px;
+    font-weight: 600;
+    /* padding-right: 40%; */
+}
+.radio{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    padding-top: 40px;
+}
+input[type=input]{
+    height: 40px;
+    width: 40rem;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+input[type=number]{
+    height: 40px;
+    width: 40rem;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+.flight-calculate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c00069;
+    background-color: #2fe677;
+    width: 17rem;
+    height: 6rem;
+    margin: 6rem 0;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.flight-calculate:hover{
+    filter: brightness(93%);
+}
+.input .inst{
+    font-size: 1.5rem;
+    color: gray;
+}
